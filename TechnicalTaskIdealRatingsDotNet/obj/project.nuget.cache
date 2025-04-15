@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HzJmMUaWTo5FiIIg3ovAyBdegFYNIrcTfGca+s71hOuVBlDqspP+M2UmMQ9moRz76zLbDIJ/ieNgeojBSoHHrw==",
+  "dgSpecHash": "mGskvPLUwMzJl5UgnNXCT6qxx7Qiqb5qfjVcYLAfQiXNL1KzDEpYlEGw/cbBA9kV9dSQimpTwIe8e7VVEHaZgQ==",
   "success": true,
-  "projectFilePath": "/Users/mahmoudmohamed/RiderProjects/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj",
+  "projectFilePath": "/Users/mahmoudmohamed/Desktop/idealRatingsTask/BackendDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj",
   "expectedPackageFiles": [
     "/Users/mahmoudmohamed/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/mahmoudmohamed/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

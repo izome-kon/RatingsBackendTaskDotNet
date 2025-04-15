@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mahmoudmohamed/RiderProjects/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj": {}
+    "/Users/mahmoudmohamed/Desktop/idealRatingsTask/BackendDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj": {}
   },
   "projects": {
-    "/Users/mahmoudmohamed/RiderProjects/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj": {
+    "/Users/mahmoudmohamed/Desktop/idealRatingsTask/BackendDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mahmoudmohamed/RiderProjects/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj",
+        "projectUniqueName": "/Users/mahmoudmohamed/Desktop/idealRatingsTask/BackendDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj",
         "projectName": "TechnicalTaskIdealRatingsDotNet",
-        "projectPath": "/Users/mahmoudmohamed/RiderProjects/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj",
+        "projectPath": "/Users/mahmoudmohamed/Desktop/idealRatingsTask/BackendDotNet/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet.csproj",
         "packagesPath": "/Users/mahmoudmohamed/.nuget/packages/",
-        "outputPath": "/Users/mahmoudmohamed/RiderProjects/TechnicalTaskIdealRatingsDotNet/TechnicalTaskIdealRatingsDotNet/obj/",
+        "outputPath": "/Users/mahmoudmohamed/Desktop/idealRatingsTask/BackendDotNet/TechnicalTaskIdealRatingsDotNet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mahmoudmohamed/.nuget/NuGet/NuGet.Config"
