@@ -12,7 +12,7 @@
   technicaltaskidealratingsdotnet:
     image: technicaltaskidealratingsdotnet
     ports:
-      - "80:80"
+      - "5009:80"
     build:
       context: .
       dockerfile: TechnicalTaskIdealRatingsDotNet/Dockerfile

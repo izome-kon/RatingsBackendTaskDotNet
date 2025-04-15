@@ -6,5 +6,5 @@ namespace TechnicalTaskIdealRatingsDotNet.Repositories.Person;
 
 public interface IPersonRepository
 { 
-    Task<List<PersonResponse>> GetAllPersonsAsync(PersonFilter? filter = null);
+    Task<List<PersonDto>> GetAllPersonsAsync(PersonFilter? filter = null);
 }

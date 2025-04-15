@@ -17,9 +17,9 @@ public class CsvPersonRepository : IPersonRepository
         _csvFilePath = csvFilePath;
     }
 
-    public async Task<List<PersonResponse>> GetAllPersonsAsync(PersonFilter? filter = null)
+    public async Task<List<PersonDto>> GetAllPersonsAsync(PersonFilter? filter = null)
     {
-        var persons = new List<PersonResponse>();
+        var persons = new List<PersonDto>();
         try
         {
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
@@ -33,7 +33,7 @@ public class CsvPersonRepository : IPersonRepository
             {
                 csv.Context.RegisterClassMap<PersonResponseMap>();
 
-                var records = csv.GetRecordsAsync<PersonResponse>()
+                var records = csv.GetRecordsAsync<PersonDto>()
                     .Where(r => ApplyFilter(r, filter))
                     .ToBlockingEnumerable();
 
@@ -56,7 +56,7 @@ public class CsvPersonRepository : IPersonRepository
         return persons;
     }
     
-    private bool ApplyFilter(PersonResponse person, PersonFilter? filter)
+    private bool ApplyFilter(PersonDto person, PersonFilter? filter)
     {
         if (filter == null)
             return true;

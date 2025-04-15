@@ -5,9 +5,9 @@ namespace TechnicalTaskIdealRatingsDotNet.Mappers;
 
 public class PersonMapper
 {
-    public static PersonResponse ToDto(Person person)
+    public static PersonDto ToDto(Person person)
     {
-        return new PersonResponse
+        return new PersonDto
         {
             FirstName = person.Name?.Split(' ').FirstOrDefault() ?? "",
             LastName = person.Name?.Split(' ').Skip(1).FirstOrDefault() ?? "",

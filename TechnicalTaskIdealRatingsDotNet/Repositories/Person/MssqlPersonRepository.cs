@@ -16,7 +16,7 @@ public class MssqlPersonRepository: IPersonRepository
         _context = context;
     }
     
-    public async Task<List<PersonResponse>> GetAllPersonsAsync(PersonFilter? filter = null)
+    public async Task<List<PersonDto>> GetAllPersonsAsync(PersonFilter? filter = null)
     {
         IQueryable<Models.Person> query = _context.Persons;
 

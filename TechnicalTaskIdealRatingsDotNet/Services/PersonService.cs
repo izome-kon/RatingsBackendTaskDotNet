@@ -16,7 +16,7 @@ public class PersonService
         _mssqlRepo = mssqlRepo;
     }
 
-    public async Task<List<PersonResponse>> GetAllPersonsAsync(PersonFilter? filter = null)
+    public async Task<List<PersonDto>> GetAllPersonsAsync(PersonFilter? filter = null)
     {
         var csvPersonsTask = _csvRepo.GetAllPersonsAsync(filter);
         var dbPersonsTask = _mssqlRepo.GetAllPersonsAsync(filter);

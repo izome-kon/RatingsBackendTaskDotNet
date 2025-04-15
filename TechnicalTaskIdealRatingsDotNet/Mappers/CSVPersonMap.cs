@@ -4,7 +4,7 @@ using TechnicalTaskIdealRatingsDotNet.DTOs;
 
 namespace TechnicalTaskIdealRatingsDotNet.Mappers;
 
-public class PersonResponseMap : ClassMap<PersonResponse>
+public class PersonResponseMap : ClassMap<PersonDto>
 {
     public PersonResponseMap()
     {

@@ -17,7 +17,7 @@ public class PersonController : ControllerBase
     }
     
     [HttpGet]
-    public async Task<ActionResult<List<PersonResponse>>> GetAllPersons([FromQuery] PersonFilter filter)
+    public async Task<ActionResult<List<PersonDto>>> GetAllPersons([FromQuery] PersonFilter filter)
     {
         var persons = await _personService.GetAllPersonsAsync(filter);
         return Ok(persons);

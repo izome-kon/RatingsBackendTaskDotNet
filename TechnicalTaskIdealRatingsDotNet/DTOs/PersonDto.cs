@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace TechnicalTaskIdealRatingsDotNet.DTOs;
 
-public class PersonResponse
+public class PersonDto
 {
     [JsonPropertyName("first name")]
     public string FirstName { get; set; } = string.Empty;
